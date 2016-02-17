@@ -1,0 +1,9 @@
+---
+name : consul
+description : st2 content pack for consul actions
+keywords:
+  - consul
+  - actions
+version : 0.1
+author : Martin Devlin
+email : devlinm@gmail.com

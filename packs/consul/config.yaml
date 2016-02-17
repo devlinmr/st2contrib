@@ -1,0 +1,6 @@
+---
+setup:
+  user: ""
+  password: ""
+  consul_api_url: "http://consul.mdev.kube:8500/v1"
+  verify: "true"

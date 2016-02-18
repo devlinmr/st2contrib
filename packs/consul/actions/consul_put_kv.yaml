@@ -1,13 +1,10 @@
+name: consul_put_kv
+runner_type: run-python
 description: 'Put kv to consul kv store'
 enabled: true
-runner_type: run-python
 entry_point: consul_put_kv.py
-name: consul_put_kv
+
 parameters:
-  action:
-    default: consul_put_kv
-    immutable: true
-    type: string
   key:
     required: true
     type: string

@@ -1,6 +1,5 @@
 from lib.action import ConsulAction
 
-
 class ConsulKvPutAction(ConsulAction):
 
     def run(self, key, value):

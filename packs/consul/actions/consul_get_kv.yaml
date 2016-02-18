@@ -1,0 +1,13 @@
+name: consul_put_kv
+runner_type: run-python
+description: 'Put kv to consul kv store'
+enabled: true
+entry_point: consul_get_kv.py
+
+parameters:
+  key:
+    required: true
+    type: string
+  recurse:
+    required: false
+    type: boolean

@@ -2,8 +2,8 @@ from lib.action import ConsulAction
 
 class ConsulKvPutAction(ConsulAction):
 
-    def run(self, key, value):
+    def run(self, key, recurse):
 
-        result = self.consul_del_kv(key)
+        result = self.consul_del_kv(key, recurse)
 
         return result

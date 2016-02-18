@@ -27,7 +27,7 @@ class ConsulAction(Action):
 
         return self._validate_result(response=response)    
 
-    def consul_del_kv(self, key recurse=False):
+    def consul_del_kv(self, key, recurse=False):
         url = self.setup['consul_api_url']
         url = url + '/kv/' + key
         if recurse:
